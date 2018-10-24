@@ -1,8 +1,6 @@
 const cleanArray = function (array) {
     // Sort Array 
-    array.sort(function (a, b) {
-        return a - b
-    });
+    array.sort((a, b) => a - b);
 
     // To store final result
     let finalArray = [];
